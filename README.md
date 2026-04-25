@@ -26,7 +26,7 @@ The notebook walks through the full animation process, including:
 - focusing in/testing out a single frame before creating a full animation
 - building animations with `FuncAnimation`
 - previewing animations inside Jupyter
-- exporting animations using **FFmpeg** or **ImageMagick** and their differences
+- exporting animations using FFmpeg or ImageMagick and their differences
 
 ## Repository Contents
 
@@ -42,7 +42,7 @@ This project uses the following publicly available dataset:
 
 - [Billboard Hot 100 Current Data](https://raw.githubusercontent.com/utdata/rwd-billboard-data/main/data-out/hot-100-current.csv)
 
-The tutorial filters this dataset to only include entries from **2025**.
+The tutorial filters this dataset to only include entries from 2025.
 
 ## Dataset
 
@@ -52,7 +52,7 @@ This project uses the following publicly available dataset:
 
 The dataset is loaded directly from the public URL inside the notebook, so no manual download is required.
 
-The tutorial filters the dataset to only include entries from **2025**.
+The tutorial filters the dataset to only include entries from 2025.
 
 ## Tools Used
 
@@ -85,10 +85,10 @@ from matplotlib.animation import FuncAnimation
 from IPython.display import HTML, display
 ```
 
-To save animations as files, **FFmpeg** or **ImageMagick** may need to be installed on your computer.
+To save/export animations as files, FFmpeg or ImageMagick may need to be installed on your computer!
 
 
-## How to Run
+## How to Run?
 
 1. Clone or download this repository.
 2. Open `402_animation_notebook.ipynb` in Jupyter Notebook or JupyterLab.
@@ -96,7 +96,7 @@ To save animations as files, **FFmpeg** or **ImageMagick** may need to be instal
 4. To export the animations, uncomment the `.save()` lines in the notebook.
 5. Make sure FFmpeg or ImageMagick is installed if saving animations as MP4 or GIF files.
 
-## Why This Tutorial
+## Why This Tutorial?
 
 Many visualization tutorials focus on static plots, while animation tutorials are often either too brief or too advanced for beginners. Along with this, most animation tutorials online use synthetic data instead of any real world application data that is more simple for the average viewer to understand. This project was designed to fill that gap by giving a clear example of how animated visualizations can be built in Python using a real, relevant, and recent public dataset. Along with this, this tutorial also emphasizes that animation should have a purpose. Instead of just being used as a visual effect, the examples show how motion can assist in communicating more factors depending on your specific data. It aims to help understand why one should make the choice to employ animation in their visualizations!
 
